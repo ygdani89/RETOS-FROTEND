@@ -1,0 +1,149 @@
+header section:nth-child(1) {
+    color: white;
+    background-color: black;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 0 8px;
+}
+
+
+
+header section:nth-child(2) {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    background-color: #F0A83E;
+    list-style: none;
+    height: 65px;
+    align-items: center;
+    padding: 0 8px;
+
+}
+
+header section:nth-child(2) li:hover {
+
+    color: rgba(0, 0, 0, 0.83);
+    transition: .5s;
+}
+
+header section:nth-child(2) img:hover {
+
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5;
+
+
+}
+
+header ul li {
+    display: inline;
+    cursor: pointer;
+
+}
+
+header nav li {
+    padding-left: 5px;
+    display: inline;
+    cursor: pointer;
+}
+
+.bowl h1 {
+
+    background-color: white;
+    display: inline-block;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+.bowl button {
+    cursor: pointer;
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    color: white;
+    background: #F0A83E;
+    border-radius: 5px;
+    border: none;
+    -webkit-box-shadow: -7px -3px 67px 11px rgba(0,0,0,0.69);
+-moz-box-shadow: -7px -3px 67px 11px rgba(0,0,0,0.69);
+box-shadow: -7px -3px 67px 11px rgba(0,0,0,0.69);
+
+}
+
+.bowl button:hover{
+
+  transition: .5s;
+    color: black;
+
+}
+
+.bowl article{
+
+    margin-right: 15%;
+    text-align: end;
+    
+
+}
+
+.bowl  h1,p ,button{
+
+ margin-top: 70px;
+}
+
+
+.bowl p, button{
+
+    margin: 10px 70px;
+}
+
+header section:nth-child(4) h2 {
+font-size: 2em;
+
+}
+
+header section:nth-child(4){
+
+    text-align: center;
+    margin: 15px 0px 25px 0px;
+    
+}
+
+header section:nth-child(4) ul, h2{
+
+    margin-top: 20px;
+}
+
+header section:nth-child(5){
+   
+
+width: 900px;
+
+margin: 0px auto;
+text-align: center;
+    display: flex;
+justify-content: space-evenly;
+}
+
+header section:nth-child(5) div{
+
+    background-color: #FBFAF6;
+    text-align: center;
+}
+
+header section:nth-child(5) p{
+margin-top: 30px;
+    color: #F0A83E;
+}
+
+header section:nth-child(5) div:hover{
+    /* transition: 5s; */
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: .5;
+   
+    
+}
