@@ -163,7 +163,7 @@ main h2 {
 
 }
 
-main div {
+main form {
 
     display: flex;
     flex-direction: column;
@@ -230,4 +230,37 @@ footer section > div{
 
 footer section > div img{
     padding: 10px;
+}
+
+footer {
+
+background-color: #3C2313;
+
+}
+
+footer .primero{
+
+    display: flex;
+    flex-direction: row;
+}
+
+footer .ultimo {
+display: flex;
+justify-content: space-between;
+    background-color: #3C2313;
+    height: 80%;
+    padding-left: 6% ;
+    padding-right: 6%;
+}
+
+footer div{
+
+    display: flex;
+    flex-direction: column;
+}
+footer article {
+display: flex;
+    color: black;
+    align-items: center;
+    color: white;
 }
